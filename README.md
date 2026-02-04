@@ -38,7 +38,20 @@ notebook.ipynb # Data exploration and model training
 customer_churn_data.csv # Dataset
 model.pkl # Trained machine learning model
 scaler.pkl # Feature scaler used during training
+requirements.txt # Requirements for the project
 README.md # Project documentation
+
+## Setup and Installation
+1. **Clone the repository:**
+   ```bash
+   git clone [https://github.com/gabtlv/Customer-Churn-Prediction.git](https://github.com/gabtlv/Customer-Churn-Prediction.git)
+   cd Customer-Churn-Prediction
+
+2. **Install dependencies**
+pip install -r requirements.txt
+
+3. **Run the application**
+streamlit run app.py
 
 ## Planned Enhancements
 
