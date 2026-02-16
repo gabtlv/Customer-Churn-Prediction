@@ -35,7 +35,8 @@ with predictionTab:
     leftColumn, rightColumn = st.columns(2)
 
     with leftColumn:
-        age = st.number_input("Enter age", min_value = 10, max_value = 100, value = 30)
+        age = st.number_input("Enter age", min_value = 10, max_value = 100, value = 55)
+        ##ageSlider = st.slider("Select age", min_value = 10, max_value = 100, value = 55)
         tenure = st.number_input("Enter Tenure (Months)", min_value = 0, max_value = 140)
 
     with rightColumn:
